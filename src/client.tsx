@@ -21,6 +21,10 @@ globalThis.__webpack_require__ = (moduleId: string) => {
 	}
 };
 
+//M1は、モジュールのIDと、モジュールの名前、モジュールのチャンクのIDを含むJSON文字列です。
+//M1はモジュールの読み込み命令を含むため、これがクライアントサイドで実行されると、モジュールが読み込まれます。
+//J0は、React要素を含むJSON文字列です。
+//J0は、React要素をレンダリングするために使用される、サーバーサイドのレンダリングの結果です。
 const dataFromServer = `
 M1:{"id":"Clock.tsx","name":"Clock","chunks":["pika","chu"]}
 J0:["$","div",null,{"children":[["$","h1",null,{"children":"React Server Components example"}],[["$","p",null,{"children":"Hello, world!"}],["$","@1",null,{}]]]}]
