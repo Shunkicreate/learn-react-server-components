@@ -1,5 +1,6 @@
 // import { Clock } from "./Clock.js";
-import Page from "./Page.tsx";
+import Page from "./Page.js";
+
 const Clock = {
 	$$typeof: Symbol.for("react.module.reference"),
 	filepath: "src/app/Clock.tsx",

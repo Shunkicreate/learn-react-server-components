@@ -1,12 +1,8 @@
-interface PageProps {
-    children: React.ReactNode;
-}
-
-const Page = (props: PageProps) => {
+const Page: React.FC<React.PropsWithChildren> = ({ children }) => {
     return (
         <div>
             <h1>Page</h1>
-            {props.children}
+            {children}
         </div>
     );
 }
