@@ -1,0 +1,11 @@
+{
+    "devDependencies": {
+        "@types/react": "^18.2.33",
+        "@types/react-dom": "^18.2.14",
+        "prettier": "^3.0.3",
+        "react": "^18.3.0-canary-8039e6d0b-20231026",
+        "react-dom": "^18.3.0-canary-8039e6d0b-20231026",
+        "react-server-dom-webpack": "^18.3.0-canary-8039e6d0b-20231026",
+        "typescript": "^5.2.2"
+    }
+}
